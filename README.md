@@ -61,6 +61,32 @@ Zeit Now funciona con Nodejs, puede contener archivos estáticos y soporta Docke
 * Permite comprar dominios por CLI.
 
 ### 1.3 Aplicaciones monolíticas vs microservicios ###
+
+### Aplicaciones Monolíticas ###
+
+Ventajas  | Desventajas
+------------- | -------------
+Buena para aplicaciones pequeñas.  | Difícil de mantener a largo plazo.
+Fácil de desarrollar.  | Costosa para escalar.
+Fácil de hacer deploy.   | En caso de un error se puede caer toda la aplicación.
+Fácil para trabajar individual o en equipos pequeños.  | Más difícil testear.
+	|  Más difícil de depurar.
+
+![Aplicaciones Monolíticas] (https://joaquinaraujo.github.io/deploy-now/assets/images/mono.png)
+	
+### Aplicaciones Microservicios	###
+
+Ventajas  | Desventajas
+------------- | -------------
+Fácil de hacer deploy. | Difícil de orquestar.
+Fácil de escalar. | Puede ser lenta la comunicación entre servicios.
+Fácil de testear. | Difícil saber cómo dividir nuestra aplicación.
+Fácil de depurar. | Es más costoso de mantener.
+En caso de error solo se cae un servicio. | 
+Se pueden utilizar diferentes tecnologías. | 
+
+![Aplicaciones Microservicios](https://joaquinaraujo.github.io/deploy-now/assets/images/micro.png)
+
 ### 1.4 Instalación de Now.sh ###
 
 ## 2. Aplicaciones Estáticas ##
