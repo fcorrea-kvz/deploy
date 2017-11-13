@@ -13,7 +13,7 @@ Una aplicación web moderna se divide en varias partes, algunas aplicaciones tie
 	* Redis: cache y seciones
 	* MOndoDB: datos que cambian muy rapidos
 	
-![Componentes](https://joaquinaraujo.github.io/deploy-now/)
+![Componentes](http://www.paginaswebs.com/wp-content/uploads/2017/02/desarrollo-aplicaciones-web.png)
 
 #### Definiciones importantes ####
 
@@ -87,7 +87,29 @@ Se pueden utilizar diferentes tecnologías. |
 
 ![Aplicaciones Microservicios](https://joaquinaraujo.github.io/deploy-now/assets/images/micro.png)
 
+**Orquestación y Coreografía de Servicios**: Ambos conceptos se basan en cómo hacer para comunicar nuestros servicios y que todo funcione como si fuera una sola aplicación.
+
+**Se pueden utilizar aplicaciones de terceros**
+
+* Auth0
+* mLab
+* Cloudinary
+* Fastly
+* Sentry
+* Redis Lab
+* Algolia
+* New Relic
+* SendGrid
+* Maligun
+* Logz.io
+
 ### 1.4 Instalación de Now.sh ###
+
+Instalación:
+```
+sudo npm install -g now
+```
+
 
 ## 2. Aplicaciones Estáticas ##
 ### 2.1 Deploy con GitHub Pages ###
@@ -116,3 +138,5 @@ Se pueden utilizar diferentes tecnologías. |
 ## 7. Retos y Desafíos ##
 ### 7.1 Combinar muchos servicios ###
 ### 7.2 Usar un servicio diferente ###
+
+[Resumen del curso](https://joaquinaraujo.github.io/deploy-now/)
