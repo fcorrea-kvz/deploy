@@ -110,11 +110,21 @@ Instalación:
 sudo npm install -g now
 ```
 
-
 ## 2. Aplicaciones Estáticas ##
 ### 2.1 Deploy con GitHub Pages ###
+
+**Cosas importantes**
+
+* Cuando la barrita está en verde significa que está hecho el deploy. Si la barra está en un color rojo tenue, significa que aún está en proceso.
+* Se puede customizar para aparentar ser mucho más poderoso.
+* Lo más común es utilizarlo para documentación de librerías.
+
 ### 2.2 Deploy con Surge.sh ###
+
+
 ### 2.3 Deploy con Now.sh ###
+
+
 
 ## 3. Tipos de Deploy ##
 ### 3.1 Estructura del proyecto ###
